@@ -1,0 +1,81 @@
+[
+  {
+    "candidateIdentifier": "CA001",
+    "resumeIdentifier": "RES001",
+    "jobTitle": "Python Developer",
+    "jobTitles": ["Python Developer"],
+    "resumeSummary": "Python developer with Django and FastAPI experience",
+    "hardSkillsList": [
+      {"skillName": "Python"},
+      {"skillName": "Django"},
+      {"skillName": "FastAPI"}
+    ],
+    "candidateSkillsList": [
+      {"skillName": "Python"},
+      {"skillName": "Django"}
+    ],
+    "softSkillsList": [
+      {"skillName": "Communication"}
+    ],
+    "workExperience": [
+      {
+        "companyName": "TCS",
+        "jobTitles": ["Python Developer"],
+        "acquiredExperienceInMonths": 36
+      }
+    ]
+  },
+
+  {
+    "candidateIdentifier": "CA002",
+    "resumeIdentifier": "RES002",
+    "jobTitle": "Data Engineer",
+    "jobTitles": ["Data Engineer"],
+    "resumeSummary": "Data Engineer with Spark and Kafka experience",
+    "hardSkillsList": [
+      {"skillName": "Spark"},
+      {"skillName": "Kafka"}
+    ],
+    "candidateSkillsList": [
+      {"skillName": "Spark"},
+      {"skillName": "Kafka"}
+    ],
+    "softSkillsList": [
+      {"skillName": "Leadership"}
+    ],
+    "workExperience": [
+      {
+        "companyName": "Accenture",
+        "jobTitles": ["Data Engineer"],
+        "acquiredExperienceInMonths": 48
+      }
+    ]
+  },
+
+  {
+    "candidateIdentifier": "CA003",
+    "resumeIdentifier": "RES003",
+    "jobTitle": "ServiceNow Developer",
+    "jobTitles": ["ServiceNow Developer"],
+    "resumeSummary": "ServiceNow ITOM developer with CMDB and Discovery",
+    "hardSkillsList": [
+      {"skillName": "ServiceNow"},
+      {"skillName": "ITOM"},
+      {"skillName": "CMDB"},
+      {"skillName": "Discovery"}
+    ],
+    "candidateSkillsList": [
+      {"skillName": "ServiceNow"}
+    ],
+    "softSkillsList": [
+      {"skillName": "Communication"}
+    ],
+    "workExperience": [
+      {
+        "companyName": "IBM",
+        "jobTitles": ["ServiceNow Developer"],
+        "acquiredExperienceInMonths": 60
+      }
+    ]
+  }
+]
