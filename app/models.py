@@ -5,6 +5,7 @@ class Intent(BaseModel):
     skills: list[str] = []
     jobTitles: list[str] = []
     minExperienceMonths: int | None = None
+    updatedAfter: str | None = None
 
 
 class SearchRequest(BaseModel):

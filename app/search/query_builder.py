@@ -6,6 +6,7 @@ def build_query(intent: Intent):
     or_conditions = []
     and_conditions = []
 
+    # Skills
     if intent.skills:
 
         or_conditions.extend([
@@ -27,6 +28,7 @@ def build_query(intent: Intent):
             }
         ])
 
+    # Job Titles
     if intent.jobTitles:
 
         or_conditions.extend([
@@ -47,6 +49,7 @@ def build_query(intent: Intent):
             }
         ])
 
+    # Experience Filter
     if intent.minExperienceMonths:
 
         and_conditions.append(
@@ -57,7 +60,20 @@ def build_query(intent: Intent):
             }
         )
 
+    # Resume Last Updated Filter
+    if intent.updatedAfter:
+
+        and_conditions.append(
+            {
+                "resumeLastUpdated": {
+                    "$gte": intent.updatedAfter
+                }
+            }
+        )
+
+    # Skills/Title Matching
     if or_conditions:
+
         and_conditions.append(
             {
                 "$or": or_conditions
