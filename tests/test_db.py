@@ -1,5 +1,4 @@
-from database import collection
+from app.database import collection
 
-print(
-    collection.count_documents({})
-)
+for doc in collection.find():
+    print(doc)
